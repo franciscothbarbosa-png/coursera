@@ -1,5 +1,6 @@
 /* Navbar Styling */
 .navbar {
+  background-color: #f8f8f8;
   border-radius: 0;
   margin-bottom: 0;
 }
@@ -7,29 +8,30 @@
 .navbar-brand {
   font-size: 1.5em;
   font-weight: bold;
+  color: #555 !important;
 }
 
-/* Mobile Dropdown Menu Styling */
+/* Mobile Dropdown background */
 #nav-list {
-  background-color: #f8f8f8; /* Distinguish from content */
+  background-color: #e7e7e7;
   margin: 0;
-  text-align: center;
 }
 
-#nav-list li {
-  border-bottom: 1px solid #e7e7e7;
+#nav-list li a {
+  color: #555;
+  border-bottom: 1px solid #ddd;
 }
 
-/* Page Content */
-h2 {
-  margin-top: 30px;
-  margin-bottom: 30px;
-}
-
-#main-content {
-  background-color: #999; /* Example gray color */
-  padding: 15px;
-  width: 100%;
+/* Content Section */
+#content-box {
+  background-color: #999;
+  color: white;
+  padding: 20px;
+  margin-top: 20px;
   height: 1000px; /* Forces scrolling as required */
-  margin-bottom: 20px;
+}
+
+h1 {
+  margin-top: 20px;
+  font-weight: bold;
 }
